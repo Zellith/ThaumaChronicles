@@ -1,0 +1,141 @@
+html
+{
+	color: #ffffff;
+}
+div.field
+{	
+	position: relative;
+	margin-top: 1%;
+	background: url(../images/CARD_BACK.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 200px;
+}
+div img.card
+{
+	position: relative;
+	height: 300px;
+	width: 200px;
+	background-size: cover;
+}
+#board
+{
+	margin-left: 33%;
+	position: absolute;
+	height: 900px;
+	width: 615px;
+	
+}
+#card
+{
+	margin: auto;
+	float: right;
+    width: 28%;
+    border:3px solid #8AC007;
+    padding: 10px;
+}
+#background
+{
+	background: url(../images/GAME_BOARDv2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 15px;
+	height: auto;
+	width: 720px;
+	min-height: auto;
+	max-height: auto;
+	max-width: auto;
+	min-width: auto;
+}
+
+#m1
+{
+	float: left;
+	height: 300px;
+	width: 200px;
+}
+#m2
+{
+	float: left;
+	margin-left: 5px;
+	height: 300px;
+	width: 200px;
+}
+#m3
+{
+	float: left;
+	margin-left: 5px;
+	height: 300px;
+	width: 200px;
+}
+#c1
+{
+	background-color: #ff0000;
+	position: absolute;
+	height: 300px;
+	width: 200px;	
+}
+#c2
+{
+	background-color: #ff0055;
+	position: absolute;
+	margin-left: 35%;
+	height: 300px;
+	width: 200px;	
+}
+#c3
+{
+	background-color: #ff0088;
+	position: absolute;
+	margin-left: 70%;
+	height: 300px;
+	width: 200px;	
+}
+#c4
+{
+	background-color: #cc0000;
+	position: absolute;
+	height: 300px;
+	width: 200px;	
+}
+#c5
+{
+	background-color: #cc0055;
+	position: absolute;
+	margin-left: 35%;
+	height: 300px;
+	width: 200px;	
+}
+#c6
+{
+	background-color: #cc0088;
+	position: absolute;
+	margin-left: 70%;
+	height: 300px;
+	width: 200px;	
+}
+#c7
+{
+	background-color: #aa0000;
+	position: absolute;
+	height: 300px;
+	width: 200px;	
+}
+#c8
+{
+	background-color: #aa0055;
+	position: absolute;
+	margin-left: 35%;
+	height: 300px;
+	width: 200px;	
+}
+#c9
+{
+	background-color: #aa0088;
+	position: absolute;
+	margin-left: 70%;
+	height: 300px;
+	width: 200px;	
+}
