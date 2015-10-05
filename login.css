@@ -1,0 +1,48 @@
+@font-face {
+	font-family: roboto;
+	src: url(fonts/Roboto-Regular.woff2);
+}
+ul.input-style {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+html {
+	font-family: roboto;
+	font-size: 20pt;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #282828;
+	text-transform: uppercase;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 80%;
+  font-family: roboto;
+  font-size: 18px;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="password"] {
+	display: block;
+	margin: 0;
+	width: 80%;
+	font-family: roboto;
+	font-size: 18px;
+	box-shadow: 14px;
+}
+section.wrap{
+	position: relative;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+div.logo{
+	position: relative;
+	margin-top: 5%;
+	margin-right: 35%;
+	margin-left: 32%;
+	margin-bottom: 1%;
+}
