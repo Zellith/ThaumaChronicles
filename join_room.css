@@ -1,0 +1,24 @@
+@font-face {
+	font-family: roboto;
+	src: url(fonts/Roboto-Regular.woff2);
+}
+#room{
+	background-image: url(../images/asset_img1.gif);
+	width: auto;
+	height: auto;
+	padding: 25px;
+	border-spacing: 15px;
+
+}
+section.name{
+	font-family: roboto;
+	color: #ffffff;
+	font-size: 30pt;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left:50%;
+	margin-right: 50%;
+}
+a{
+	text-decoration: none;
+}
