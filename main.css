@@ -1,0 +1,52 @@
+@font-face {
+	font-family: roboto;
+	src: url(fonts/Roboto-Regular.woff2);
+}
+html {
+	background-color: #282828;
+	font-family: roboto;
+	color: #ffffff;
+	background-size: auto;
+	background-image: url(../images/bg-menu.png);
+	
+}
+
+p {
+	font-size: 45pt;
+	position: top;
+	font-weight: bold;
+}
+.wrap {
+  /* force the div to properly contain the floated images: */
+	position:relative;
+	float:center;
+	clear:none;
+	overflow:hidden;
+}
+.wrap img {
+	height: auto;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%; 
+	position:relative;
+	z-index:2;
+}
+
+.wrap .desc {
+	display:block;
+	position:absolute;
+	width:100%;
+	top:20%;
+	left:0;
+	z-index:3;
+	text-align:center;
+}
+a:link{
+	color: #ffffff;
+}
+a:visited{
+	color: #ffffff;
+}
+a:active{
+	color: #ffffff;
+}
